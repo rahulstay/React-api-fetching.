@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 8px; /* keep only one */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.btn:active {
+    background-color: palevioletred;
+}
